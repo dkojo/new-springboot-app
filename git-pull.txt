@@ -1,0 +1,2 @@
+This is a pull txt to help in my studies
+I am beginning to understand the git commands
