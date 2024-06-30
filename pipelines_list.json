@@ -4,6 +4,14 @@
     "repo": "https://github.com/dkojo/new-springboot-app.git",
     "branch": "master",
     "jenkinsfile": "springboot-project/terraform/Jenkinsfile"
-  }
+  },
 
+  {
+    "name": "infrastructure-configuratiion-pipeline",
+    "repo": "https://github.com/dkojo/new-springboot-app.git",
+    "branch": "master",
+    "jenkinsfile": "springboot-project/terraform/Jenkinsfile"
+  }
 ]
+
+
