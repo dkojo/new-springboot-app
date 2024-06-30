@@ -15,7 +15,7 @@ variable "instance_ami" {
 
 variable "instance_key_name" {
   description = "An Existing Keypair to be used for the instances"
-  default     = "key"
+  default     = "lappy-jenkins"
 }
 
 variable "instance_subnet_id" {
