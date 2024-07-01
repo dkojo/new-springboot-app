@@ -263,7 +263,7 @@ resource "aws_instance" "grafana_server" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "nexus_server"
+    Name = "grafana_server"
   }
 }
 
