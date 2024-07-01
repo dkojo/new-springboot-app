@@ -1,4 +1,4 @@
-[Jenkins]
+[jenkins]
 52.90.134.122 ansible_ssh_user=ec2-user ansible_private_key_file=key ## Jenkins_server        
 
 [servers]
