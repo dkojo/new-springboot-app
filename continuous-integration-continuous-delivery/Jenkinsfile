@@ -14,7 +14,7 @@ pipeline {
         string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/new-springboot-app.git', description: 'Github repository url')
         string(name: 'GITHUB_BRANCH', defaultValue: 'master', description: 'Github branch for your build')
         string(name: 'SONARQUBE_SERVER_NAME', defaultValue: 'sonarqube_server', description: 'Name for your sonarqube server')
-        string(name: 'NEXUS_URL', defaultValue: 'http://ec2-184-72-212-63.compute-1.amazonaws.com:8081/', description: 'Your Nexus URL')
+        string(name: 'NEXUS_URL', defaultValue: '184.72.212.63:8081', description: 'Your Nexus URL')
         string(name: 'NEXUS_CREDENTIAL', defaultValue: 'jenkins_nexus_creds', description: 'Your Nexus Credentials')
     }
 
