@@ -6,15 +6,15 @@ pipeline {
 
     parameters {
         string(name: 'IMAGE_TAG', defaultValue: "${BUILD_ID}", description: 'Docker image tag')
-        string(name: 'DOCKER_IMAGE', defaultValue: 'dkojo/springboot-app-ci-cd', description: 'Docker image name')
-        string(name: 'CONTAINER_NAME', defaultValue: 'springboot-app', description: 'Docker container name')
-        string(name: 'REGISTRY', defaultValue: 'dkojo/springboot-app-ci-cd', description: 'Your Docker registry repository Name')
-        string(name: 'REGISTRY_CREDENTIAL', defaultValue: 'dockerhub_creds', description: 'Docker registry credentials id')
-        string(name: 'GITHUB_CREDENTIAL', defaultValue: 'github_creds', description: 'Github access credentials id')
-        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/springboot-app-cicd.git', description: 'Github repository url')
-        string(name: 'GITHUB_BRANCH', defaultValue: 'main', description: 'Github branch for your build')
+        string(name: 'DOCKER_IMAGE', defaultValue: 'dkojo/new-springboot-app-ci-cd', description: 'Docker image name')
+        string(name: 'CONTAINER_NAME', defaultValue: 'new-springboot-app', description: 'Docker container name')
+        string(name: 'REGISTRY', defaultValue: 'dkojo/new-springboot-app-ci-cd', description: 'Your Docker registry repository Name')
+        string(name: 'REGISTRY_CREDENTIAL', defaultValue: 'jenkins_docker_creds', description: 'Docker registry credentials id')
+        string(name: 'GITHUB_CREDENTIAL', defaultValue: 'gitub_creds', description: 'Github access credentials id')
+        string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/dkojo/new-springboot-app.git', description: 'Github repository url')
+        string(name: 'GITHUB_BRANCH', defaultValue: 'master', description: 'Github branch for your build')
         string(name: 'SONARQUBE_SERVER_NAME', defaultValue: 'sonarqube_server', description: 'Name for your sonarqube server')
-        string(name: 'NEXUS_URL', defaultValue: '3.85.111.212:8081', description: 'Your Nexus URL')
+        string(name: 'NEXUS_URL', defaultValue: 'http://ec2-184-72-212-63.compute-1.amazonaws.com:8081/', description: 'Your Nexus URL')
         string(name: 'NEXUS_CREDENTIAL', defaultValue: 'jenkins_nexus_creds', description: 'Your Nexus Credentials')
     }
 
